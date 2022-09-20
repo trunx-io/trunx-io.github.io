@@ -1,0 +1,148 @@
+/**
+*****************************************
+@File: Softrait Theme Colors
+
+* This file contains the colors for the actual theme, this
+is the file you need to edit to change the color of the
+theme.
+*****************************************
+**/
+a{
+    color: #108fcf;
+}
+a:hover,a:active{
+    color: #0e80c4;
+
+
+}
+.primary-bg{
+    background: #108fcf;
+}
+.secondary-bg{
+    background: #24394c;
+}
+
+.primary-color{
+    color: #108fcf;
+}
+
+.btn-theme-primary{
+    background: #108fcf;
+    color: #fff;
+    border: 2px solid #108fcf;
+}
+.btn-theme-primary:hover{
+    background: #0e80c4;
+    border: 2px solid #0e80c4;
+    transition: all 0.3s ease-in-out 0s; 
+}
+
+.box-style-1 > .primary-bg:hover,
+.box-style-2 > .primary-bg:hover{
+    background: #0e80c4;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+.owl-theme .owl-controls .owl-buttons div,
+.owl-theme .owl-controls .owl-page span{
+    background: #108fcf;
+}
+#main-navigation .sub-menu:after{
+    border-bottom-color: #24394c;
+}
+#main-navigation.scrolled nav a { 
+    color: #24394c;
+}
+#main-navigation.scrolled nav li.menu-alt a{
+    background: #24394c;
+}
+.video-overlay{
+    background-image: linear-gradient(to bottom, rgba(36, 57, 76, 0.8), rgba(36, 57, 76, 0.8));
+    background-image: -moz-linear-gradient(top, rgba(36, 57, 76, 0.8), rgba(36, 57, 76, 0.8));
+    background-image: -o-linear-gradient(top, rgba(36, 57, 76, 0.8), rgba(36, 57, 76, 0.8));
+    background-image: -webkit-linear-gradient(top, rgba(36, 57, 76, 0.8), rgba(36, 57, 76, 0.8));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#main-banner.secondary-overlay{
+    background-image: linear-gradient(to bottom, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/image_bg_02.jpg');
+    background-image: -moz-linear-gradient(top, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/image_bg_02.jpg');
+    background-image: -o-linear-gradient(top, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/image_bg_02.jpg');
+    background-image: -webkit-linear-gradient(top, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/image_bg_02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#video.secondary-overlay{
+    background-image: linear-gradient(to bottom, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/image_bg_02.jpg');
+    background-image: -moz-linear-gradient(top, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/image_bg_02.jpg');
+    background-image: -o-linear-gradient(top, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/image_bg_02.jpg');
+    background-image: -webkit-linear-gradient(top, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/image_bg_02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#testimonials figure.testimonial-card .author span {
+    color: #108fcf;
+
+}
+.full-width-tabs > ul.nav.nav-tabs > li > a:before,
+.full-width-tabs > ul.nav.nav-tabs > li > a:after{
+    border-bottom: 12px solid #0e80c4;
+    border-bottom: 12px solid #0e80c4;
+}
+.full-width-tabs > ul.nav.nav-tabs > li.active > a,
+.full-width-tabs > ul.nav.nav-tabs > li > a:hover{
+    background: #0e80c4;
+}
+.panel-default > .panel-heading {
+    background-color: #108fcf;
+}
+#faq-categories .nav-pills > li.active > a, 
+#faq-categories .nav-pills > li.active > a:hover, 
+#faq-categories .nav-pills > li.active > a:focus {
+    border-left: 3px solid #108fcf;
+}
+/*COMING SOON*/
+.newsletter_wrap {
+    border:4px solid #108fcf;
+}
+#mc-embedded-subscribe {
+    background-color:#108fcf;
+
+}
+.blog-card .details a:hover {
+    color: #108fcf;
+}
+.blog-card .description p:after {
+    background: #108fcf;
+}
+.blog-card .description a {
+    color: #108fcf;
+}
+.blog-meta span i{
+    color: #108fcf;
+}
+#custom-search-input button {
+    color:#108fcf;
+}
+.pricing-content .type {
+    background-color: #108fcf;
+}
+.pricing-content .price {
+    background-color: #24394c;
+}
+.modal-header{
+    background-color: #24394c !important;
+}
+/*BUTTON DEPTH COLOR*/
+.btn-theme-primary:hover,.btn-theme-primary:active,.btn-theme-primary:focus{
+    background: #0e80c4;
+    color: #fff;
+    transition: all 0.3s ease-in-out 0s;
+
+}
+
