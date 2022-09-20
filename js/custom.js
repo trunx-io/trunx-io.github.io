@@ -19,21 +19,21 @@ jQuery(function($) {
     //menu resizing on hover
     if ($(window).scrollTop()< ($(window).height()-600)){
         $('#main-navigation').removeClass('scrolled');
-        $('.main-logo img').attr('src','images/logo.png');
+        $('.main-logo img').attr('src','images/branding/icononly_transparent_nobuffer.png');
     }
     else{
         $('#main-navigation').addClass('scrolled'); 
-        $('.main-logo img').attr('src','images/logo-alt.png');
+        $('.main-logo img').attr('src','images/branding/icononly_nobuffer.png');
     }
 
     $(window).on('scroll', function () {
         if ($(window).scrollTop()< ($(window).height()-600)){
             $('#main-navigation').removeClass('scrolled');
-            $('.main-logo img').attr('src','images/logo.png');
+            $('.main-logo img').attr('src','images/branding/icononly_transparent_nobuffer.png');
         }
         else{
             $('#main-navigation').addClass('scrolled'); 
-            $('.main-logo img').attr('src','images/logo-alt.png');
+            $('.main-logo img').attr('src','images/branding/icononly_nobuffer.png');
         }
     });
     

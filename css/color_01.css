@@ -67,10 +67,24 @@ a:hover,a:active{
     background-position: center center;
 }
 #main-banner.secondary-overlay{
-    background-image: linear-gradient(to bottom, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/image_bg_02.jpg');
-    background-image: -moz-linear-gradient(top, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/image_bg_02.jpg');
-    background-image: -o-linear-gradient(top, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/image_bg_02.jpg');
-    background-image: -webkit-linear-gradient(top, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/image_bg_02.jpg');
+    background-image: linear-gradient(to bottom, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/branding/icononly.png');
+    background-image: -moz-linear-gradient(top, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/branding/icononly.png');
+    background-image: -o-linear-gradient(top, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/branding/icononly.png');
+    background-image: -webkit-linear-gradient(top, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9)), url('../images/branding/icononly.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#benefits h2, #benefits h5 { 
+    color: #CCCCCC;
+}
+
+#benefits.secondary-overlay{
+    background: linear-gradient(to bottom, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9));
+    background: -moz-linear-gradient(top, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9));
+    background: -o-linear-gradient(top, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9));
+    background: -webkit-linear-gradient(top, rgba(36, 57, 76, 0.9), rgba(36, 57, 76, 0.9));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

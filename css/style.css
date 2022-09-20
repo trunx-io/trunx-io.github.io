@@ -25,6 +25,13 @@ theme.
 **/
 
 
+@font-face {
+  font-family: 'gang-of-three';
+  src: url('../fonts/go3v2.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
 /*===================================
 GENERAL
 ===================================*/
@@ -33,7 +40,7 @@ body{
     margin:0px;
     font-family: 'Poppins', sans-serif;
     line-height: 30px;
-    color: #999999;
+    color: #666666;
     font-weight: 400;
     width: 100vw;
     overflow-x: hidden;
@@ -83,7 +90,7 @@ h3 span{
 p{
     font-family: 'Poppins', sans-serif;
     line-height: 30px;
-    color: #999999;
+    color: #666666;
     font-weight: 400;
     font-size: 14px;
 }
@@ -2086,6 +2093,11 @@ MAP
 /*===================================
 RESPONSIVE STYLES
 ===================================*/
+@media only screen {
+    #main-navigation .main-logo{
+        max-width: 10em;
+    }
+}
 @media only screen and (max-width: 1399px) {
 	#slider .flexslider li .meta{
 		bottom:50px !important;
@@ -2117,33 +2129,50 @@ RESPONSIVE STYLES
         margin-bottom: -505px;
     } 
     #main-navigation .main-logo{
-        padding-left: 0px;
-        text-align: center;
-        margin-top: 42px;
+        display: none;
     }
 	#main-banner .banner-info {
-    padding: 40% 0;
-}
-#slider{
-	padding-top:50px;
-}
-
+        padding: 40% 0;
+    }
+    #slider{
+    	padding-top:50px;
+    }
+    nav:after{
+      position:absolute;
+      top: 10px;
+      left: 10px;
+      content: "Trunx.IO\00a0 CLI\00a0Wallet";
+      font-family: "gang-of-three", Arial, sans-serif;
+      font-size: 1.75em;
+    }
 }
 @media only screen and (max-width: 767px) {
     #footer .row{
         padding-left: 10px;
     }
-		#main-banner .banner-info {
-    padding: 50% 0;
-}
-
+	#main-banner .banner-info {
+        padding: 50% 0;
+    }
 }
 @media only screen and (max-width: 570px) {
     .full-width-tabs > ul.nav.nav-tabs > li {
         width: 100%;
     }
 }
-
 span.brand-name {
-    color: #fff !important;
+    color: #666666 !important;
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: 700 !important;
+    padding: 0px 3px 0px 3px;
+}
+span.brand-name-alt {
+    color: #000 !important;
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: 700 !important;
+    padding: 0px 3px 0px 3px;
+}
+code {
+    white-space: no-wrap;
 }
